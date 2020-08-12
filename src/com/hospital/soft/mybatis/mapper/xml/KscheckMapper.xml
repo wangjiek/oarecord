@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.soft.mybatis.mapper.KscheckMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.soft.mybatis.pojo.Kscheck">
+        <id column="KSCHECK_ID" property="kscheckId" />
+        <result column="YNSCXDTTIME" property="ynscxdttime" />
+        <result column="QZXDTTIME" property="qzxdttime" />
+        <result column="BQPGITEM" property="bqpgitem" />
+        <result column="GJDBCXTIME" property="gjdbcxtime" />
+        <result column="BGNUM" property="bgnum" />
+        <result column="BGTIME" property="bgtime" />
+        <result column="CRNUM" property="crnum" />
+        <result column="DDIMERNUM" property="ddimernum" />
+        <result column="PROBNPNUM" property="probnpnum" />
+        <result column="TZXCTIME" property="tzxctime" />
+        <result column="XCJCTIME" property="xcjctime" />
+        <result column="TZCTTIME" property="tzcttime" />
+        <result column="QCCTTIME" property="qccttime" />
+        <result column="ZHENDUAN" property="zhenduan" />
+        <result column="ZHENDUANTIME" property="zhenduantime" />
+        <result column="IFXNDOCTOR" property="ifxndoctor" />
+        <result column="CALLTIME" property="calltime" />
+        <result column="SENDTIME" property="sendtime" />
+        <result column="HZDOCTORNAME" property="hzdoctorname" />
+        <result column="XNZHENDUAN" property="xnzhenduan" />
+        <result column="JDJRSSTIME" property="jdjrsstime" />
+        <result column="QDDGTIME" property="qddgtime" />
+        <result column="BEGINTYTIME" property="begintytime" />
+        <result column="XSTYTIME" property="xstytime" />
+        <result column="YNRSJC" property="ynrsjc" />
+        <result column="SSYNRS" property="ssynrs" />
+        <result column="RSBEGINTIME" property="rsbegintime" />
+        <result column="RSENDTIME" property="rsendtime" />
+        <result column="RSAFTERTIME" property="rsaftertime" />
+        <result column="RSYW" property="rsyw" />
+        <result column="RSYWSIZE" property="rsywsize" />
+        <result column="RSZT" property="rszt" />
+        <result column="FCXDTTIME" property="fcxdttime" />
+        <result column="JGDBRESULT" property="jgdbresult" />
+        <result column="JGDBTIME" property="jgdbtime" />
+        <result column="JGDBBGTIME" property="jgdbbgtime" />
+        <result column="GRACE" property="grace" />
+        <result column="WEIITEM" property="weiitem" />
+        <result column="ZDINFO" property="zdinfo" />
+        <result column="KILLIP" property="killip" />
+        <result column="NYHA" property="nyha" />
+        <result column="GAOWEIITEM" property="gaoweiitem" />
+        <result column="SETMI" property="setmi" />
+        <result column="NSTEACS" property="nsteacs" />
+        <result column="SJJRTIME" property="sjjrtime" />
+        <result column="SLKXXBGYTIME" property="slkxxbgytime" />
+        <result column="KSASNUM" property="ksasnum" />
+        <result column="KSTGRLNUM" property="kstgrlnum" />
+        <result column="KQBGLNUM" property="kqbglnum" />
+        <result column="TDZL" property="tdzl" />
+        <result column="AEF" property="aef" />
+        <result column="USERID" property="userid" />
+        <result column="TIMEADMINTYPE" property="timeadmintype" />
+        <result column="TYPEID" property="typeid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        KSCHECK_ID AS kscheckId, YNSCXDTTIME AS ynscxdttime, QZXDTTIME AS qzxdttime, BQPGITEM AS bqpgitem, GJDBCXTIME AS gjdbcxtime, BGNUM AS bgnum, BGTIME AS bgtime, CRNUM AS crnum, DDIMERNUM AS ddimernum, PROBNPNUM AS probnpnum, TZXCTIME AS tzxctime, XCJCTIME AS xcjctime, TZCTTIME AS tzcttime, QCCTTIME AS qccttime, ZHENDUAN AS zhenduan, ZHENDUANTIME AS zhenduantime, IFXNDOCTOR AS ifxndoctor, CALLTIME AS calltime, SENDTIME AS sendtime, HZDOCTORNAME AS hzdoctorname, XNZHENDUAN AS xnzhenduan, JDJRSSTIME AS jdjrsstime, QDDGTIME AS qddgtime, BEGINTYTIME AS begintytime, XSTYTIME AS xstytime, YNRSJC AS ynrsjc, SSYNRS AS ssynrs, RSBEGINTIME AS rsbegintime, RSENDTIME AS rsendtime, RSAFTERTIME AS rsaftertime, RSYW AS rsyw, RSYWSIZE AS rsywsize, RSZT AS rszt, FCXDTTIME AS fcxdttime, JGDBRESULT AS jgdbresult, JGDBTIME AS jgdbtime, JGDBBGTIME AS jgdbbgtime, GRACE AS grace, WEIITEM AS weiitem, ZDINFO AS zdinfo, KILLIP AS killip, NYHA AS nyha, GAOWEIITEM AS gaoweiitem, SETMI AS setmi, NSTEACS AS nsteacs, SJJRTIME AS sjjrtime, SLKXXBGYTIME AS slkxxbgytime, KSASNUM AS ksasnum, KSTGRLNUM AS kstgrlnum, KQBGLNUM AS kqbglnum, TDZL AS tdzl, AEF AS aef, USERID AS userid, TIMEADMINTYPE AS timeadmintype, TYPEID AS typeid
+    </sql>
+
+</mapper>

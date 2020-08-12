@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.soft.mybatis.mapper.QjyyrecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.soft.mybatis.pojo.Qjyyrecord">
+        <id column="QJID" property="qjid" />
+        <result column="QJTIME" property="qjtime" />
+        <result column="YIZHUINFO" property="yizhuinfo" />
+        <result column="DOCTORNAME" property="doctorname" />
+        <result column="HUSHINAME" property="hushiname" />
+        <result column="USERID" property="userid" />
+        <result column="CREATETIMEJ" property="createtimej" />
+        <result column="QJRESULT" property="qjresult" />
+        <result column="NOWRESULT" property="nowresult" />
+        <result column="CHAGEKS" property="chageks" />
+        <result column="CHAGEYY" property="chageyy" />
+        <result column="CHAGETIME" property="chagetime" />
+        <result column="PEIPEOPLE" property="peipeople" />
+        <result column="QJPEOPLE" property="qjpeople" />
+        <result column="TYPEID" property="typeid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        QJID AS qjid, QJTIME AS qjtime, YIZHUINFO AS yizhuinfo, DOCTORNAME AS doctorname, HUSHINAME AS hushiname, USERID AS userid, CREATETIMEJ AS createtimej, QJRESULT AS qjresult, NOWRESULT AS nowresult, CHAGEKS AS chageks, CHAGEYY AS chageyy, CHAGETIME AS chagetime, PEIPEOPLE AS peipeople, QJPEOPLE AS qjpeople, TYPEID AS typeid
+    </sql>
+
+</mapper>

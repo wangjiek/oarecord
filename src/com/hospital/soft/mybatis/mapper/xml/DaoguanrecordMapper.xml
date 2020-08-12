@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.soft.mybatis.mapper.DaoguanrecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.soft.mybatis.pojo.Daoguanrecord">
+        <id column="DGRECORD_ID" property="dgrecordId" />
+        <result column="DGPCIBEGIN" property="dgpcibegin" />
+        <result column="DGDOCTORNAME" property="dgdoctorname" />
+        <result column="DGSBEGINTIME" property="dgsbegintime" />
+        <result column="DGXGWAY" property="dgxgway" />
+        <result column="BEGINCHUANCI" property="beginchuanci" />
+        <result column="BEGINZY" property="beginzy" />
+        <result column="DSTGTIME" property="dstgtime" />
+        <result column="ENDPCITIME" property="endpcitime" />
+        <result column="FZXG" property="fzxg" />
+        <result column="SHUQIAN" property="shuqian" />
+        <result column="SHUHOU" property="shuhou" />
+        <result column="FFZXG" property="ffzxg" />
+        <result column="FZIMG" property="fzimg" />
+        <result column="FFZIMG" property="ffzimg" />
+        <result column="ZJNXS" property="zjnxs" />
+        <result column="FCBB" property="fcbb" />
+        <result column="CTO" property="cto" />
+        <result column="ZRZJSIZE" property="zrzjsize" />
+        <result column="SCKN" property="sckn" />
+        <result column="SCKNSIZE" property="scknsize" />
+        <result column="SCKNTIME" property="sckntime" />
+        <result column="QNYX" property="qnyx" />
+        <result column="GNJC" property="gnjc" />
+        <result column="IABPZR" property="iabpzr" />
+        <result column="XSCX" property="xscx" />
+        <result column="LSQBQ" property="lsqbq" />
+        <result column="ECMO" property="ecmo" />
+        <result column="ZXSFZ" property="zxsfz" />
+        <result column="SZBFZ" property="szbfz" />
+        <result column="DTOWBTIME" property="dtowbtime" />
+        <result column="SFYC" property="sfyc" />
+        <result column="USERID" property="userid" />
+        <result column="TIMEADMINTYPE" property="timeadmintype" />
+        <result column="TYPEID" property="typeid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DGRECORD_ID AS dgrecordId, DGPCIBEGIN AS dgpcibegin, DGDOCTORNAME AS dgdoctorname, DGSBEGINTIME AS dgsbegintime, DGXGWAY AS dgxgway, BEGINCHUANCI AS beginchuanci, BEGINZY AS beginzy, DSTGTIME AS dstgtime, ENDPCITIME AS endpcitime, FZXG AS fzxg, SHUQIAN AS shuqian, SHUHOU AS shuhou, FFZXG AS ffzxg, FZIMG AS fzimg, FFZIMG AS ffzimg, ZJNXS AS zjnxs, FCBB AS fcbb, CTO AS cto, ZRZJSIZE AS zrzjsize, SCKN AS sckn, SCKNSIZE AS scknsize, SCKNTIME AS sckntime, QNYX AS qnyx, GNJC AS gnjc, IABPZR AS iabpzr, XSCX AS xscx, LSQBQ AS lsqbq, ECMO AS ecmo, ZXSFZ AS zxsfz, SZBFZ AS szbfz, DTOWBTIME AS dtowbtime, SFYC AS sfyc, USERID AS userid, TIMEADMINTYPE AS timeadmintype, TYPEID AS typeid
+    </sql>
+
+</mapper>

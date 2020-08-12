@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.soft.mybatis.mapper.JzpreviewMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.soft.mybatis.pojo.Jzpreview">
+        <id column="JZPREVIEW_ID" property="jzpreviewId" />
+        <result column="JZPATIENTNAME" property="jzpatientname" />
+        <result column="SEX" property="sex" />
+        <result column="AGE" property="age" />
+        <result column="FBADDRESS" property="fbaddress" />
+        <result column="FBTIME" property="fbtime" />
+        <result column="DAODATIME" property="daodatime" />
+        <result column="JZTIME" property="jztime" />
+        <result column="DDWAY" property="ddway" />
+        <result column="YNFB" property="ynfb" />
+        <result column="FBKS" property="fbks" />
+        <result column="YSHZTIME" property="yshztime" />
+        <result column="LKKETIME" property="lkketime" />
+        <result column="SBTZ" property="sbtz" />
+        <result column="BREATHESIZE" property="breathesize" />
+        <result column="MAIBO" property="maibo" />
+        <result column="XINLV" property="xinlv" />
+        <result column="XUEYA" property="xueya" />
+        <result column="MSXYBHD" property="msxybhd" />
+        <result column="ZXTKS" property="zxtks" />
+        <result column="ZJJKS" property="zjjks" />
+        <result column="ZDGS" property="zdgs" />
+        <result column="USERID" property="userid" />
+        <result column="TIMEADMINTYPE" property="timeadmintype" />
+        <result column="TYPEID" property="typeid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        JZPREVIEW_ID AS jzpreviewId, JZPATIENTNAME AS jzpatientname, SEX AS sex, AGE AS age, FBADDRESS AS fbaddress, FBTIME AS fbtime, DAODATIME AS daodatime, JZTIME AS jztime, DDWAY AS ddway, YNFB AS ynfb, FBKS AS fbks, YSHZTIME AS yshztime, LKKETIME AS lkketime, SBTZ AS sbtz, BREATHESIZE AS breathesize, MAIBO AS maibo, XINLV AS xinlv, XUEYA AS xueya, MSXYBHD AS msxybhd, ZXTKS AS zxtks, ZJJKS AS zjjks, ZDGS AS zdgs, USERID AS userid, TIMEADMINTYPE AS timeadmintype, TYPEID AS typeid
+    </sql>
+
+</mapper>

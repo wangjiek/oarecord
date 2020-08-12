@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.soft.mybatis.mapper.SjwkjzssrecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.soft.mybatis.pojo.Sjwkjzssrecord">
+        <id column="SJID" property="sjid" />
+        <result column="BRNAME" property="brname" />
+        <result column="BRSEX" property="brsex" />
+        <result column="BRAGE" property="brage" />
+        <result column="ZYNUM" property="zynum" />
+        <result column="ZHENDUAN" property="zhenduan" />
+        <result column="INYTIME" property="inytime" />
+        <result column="SHOUSHUTIME" property="shoushutime" />
+        <result column="USERID" property="userid" />
+        <result column="CREATEDATESJ" property="createdatesj" />
+        <result column="TYPEID" property="typeid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SJID AS sjid, BRNAME AS brname, BRSEX AS brsex, BRAGE AS brage, ZYNUM AS zynum, ZHENDUAN AS zhenduan, INYTIME AS inytime, SHOUSHUTIME AS shoushutime, USERID AS userid, CREATEDATESJ AS createdatesj, TYPEID AS typeid
+    </sql>
+
+</mapper>

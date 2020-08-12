@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.soft.mybatis.mapper.LivehospitalMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.soft.mybatis.pojo.Livehospital">
+        <id column="LIVEHOSPITAL_ID" property="livehospitalId" />
+        <result column="ZGINFO" property="zginfo" />
+        <result column="CYZD" property="cyzd" />
+        <result column="QZTIME" property="qztime" />
+        <result column="JGMAXSIZE" property="jgmaxsize" />
+        <result column="BNPIF" property="bnpif" />
+        <result column="NTPROBNPIF" property="ntprobnpif" />
+        <result column="MAXNUM" property="maxnum" />
+        <result column="CSXDTNUM" property="csxdtnum" />
+        <result column="HBZITEM" property="hbzitem" />
+        <result column="XXGJBYS" property="xxgjbys" />
+        <result column="YNXFXNSJ" property="ynxfxnsj" />
+        <result column="OUTHOSPITAL" property="outhospital" />
+        <result column="ZYNUM" property="zynum" />
+        <result column="SUMMONEY" property="summoney" />
+        <result column="OUTRESULT" property="outresult" />
+        <result column="CYDY" property="cydy" />
+        <result column="USERID" property="userid" />
+        <result column="TIMEADMINTYPE" property="timeadmintype" />
+        <result column="TYPEID" property="typeid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        LIVEHOSPITAL_ID AS livehospitalId, ZGINFO AS zginfo, CYZD AS cyzd, QZTIME AS qztime, JGMAXSIZE AS jgmaxsize, BNPIF AS bnpif, NTPROBNPIF AS ntprobnpif, MAXNUM AS maxnum, CSXDTNUM AS csxdtnum, HBZITEM AS hbzitem, XXGJBYS AS xxgjbys, YNXFXNSJ AS ynxfxnsj, OUTHOSPITAL AS outhospital, ZYNUM AS zynum, SUMMONEY AS summoney, OUTRESULT AS outresult, CYDY AS cydy, USERID AS userid, TIMEADMINTYPE AS timeadmintype, TYPEID AS typeid
+    </sql>
+
+</mapper>

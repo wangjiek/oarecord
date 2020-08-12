@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.soft.mybatis.mapper.RecordtypeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.soft.mybatis.pojo.Recordtype">
+        <id column="TYPEID" property="typeid" />
+        <result column="DAOGUANID" property="daoguanid" />
+        <result column="JZID" property="jzid" />
+        <result column="KSID" property="ksid" />
+        <result column="ZYZGID" property="zyzgid" />
+        <result column="YQID" property="yqid" />
+        <result column="CREATETIME" property="createtime" />
+        <result column="USERID" property="userid" />
+        <result column="TYPENAME" property="typename" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TYPEID AS typeid, DAOGUANID AS daoguanid, JZID AS jzid, KSID AS ksid, ZYZGID AS zyzgid, YQID AS yqid, CREATETIME AS createtime, USERID AS userid, TYPENAME AS typename
+    </sql>
+
+</mapper>

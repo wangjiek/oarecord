@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.soft.mybatis.mapper.JzrecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.soft.mybatis.pojo.Jzrecord">
+        <id column="JZRECORD_ID" property="jzrecordId" />
+        <result column="BRNAME" property="brname" />
+        <result column="BRSEX" property="brsex" />
+        <result column="BRAGE" property="brage" />
+        <result column="CAUSE" property="cause" />
+        <result column="SHENZHI" property="shenzhi" />
+        <result column="MAIBO" property="maibo" />
+        <result column="TIWEN" property="tiwen" />
+        <result column="XUEYANG" property="xueyang" />
+        <result column="XUEYA" property="xueya" />
+        <result column="HUXI" property="huxi" />
+        <result column="PANDUAN" property="panduan" />
+        <result column="BINGQING" property="bingqing" />
+        <result column="JZFZCHECK" property="jzfzcheck" />
+        <result column="JZCHULI" property="jzchuli" />
+        <result column="INJZTIME" property="injztime" />
+        <result column="OUTJZTIME" property="outjztime" />
+        <result column="QUXIANG" property="quxiang" />
+        <result column="DOCTORNAME" property="doctorname" />
+        <result column="HUSHINAME" property="hushiname" />
+        <result column="PEISONGNAME" property="peisongname" />
+        <result column="USERID" property="userid" />
+        <result column="CREATETIME" property="createtime" />
+        <result column="TYPEID" property="typeid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        JZRECORD_ID AS jzrecordId, BRNAME AS brname, BRSEX AS brsex, BRAGE AS brage, CAUSE AS cause, SHENZHI AS shenzhi, MAIBO AS maibo, TIWEN AS tiwen, XUEYANG AS xueyang, XUEYA AS xueya, HUXI AS huxi, PANDUAN AS panduan, BINGQING AS bingqing, JZFZCHECK AS jzfzcheck, JZCHULI AS jzchuli, INJZTIME AS injztime, OUTJZTIME AS outjztime, QUXIANG AS quxiang, DOCTORNAME AS doctorname, HUSHINAME AS hushiname, PEISONGNAME AS peisongname, USERID AS userid, CREATETIME AS createtime, TYPEID AS typeid
+    </sql>
+
+</mapper>

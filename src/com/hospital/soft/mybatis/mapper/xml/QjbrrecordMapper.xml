@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.soft.mybatis.mapper.QjbrrecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.soft.mybatis.pojo.Qjbrrecord">
+        <id column="JQBR_ID" property="jqbrId" />
+        <result column="CHUANNUM" property="chuannum" />
+        <result column="BRNAME" property="brname" />
+        <result column="BRSEX" property="brsex" />
+        <result column="BRAGE" property="brage" />
+        <result column="BRADDRESS" property="braddress" />
+        <result column="CAUSE" property="cause" />
+        <result column="JIWANGS" property="jiwangs" />
+        <result column="GUOMINGSHI" property="guomingshi" />
+        <result column="XUEYA" property="xueya" />
+        <result column="HUXI" property="huxi" />
+        <result column="MAIBO" property="maibo" />
+        <result column="SHENZHI" property="shenzhi" />
+        <result column="XUEYANG" property="xueyang" />
+        <result column="TIWEN" property="tiwen" />
+        <result column="TONGKONG2" property="tongkong2" />
+        <result column="TONGKONG" property="tongkong" />
+        <result column="FUZHUJIANCHA" property="fuzhujiancha" />
+        <result column="CHUBUZD" property="chubuzd" />
+        <result column="QICHAGUANIF" property="qichaguanif" />
+        <result column="QICHAGUANTIME" property="qichaguantime" />
+        <result column="XINFEIFSIF" property="xinfeifsif" />
+        <result column="XINFEITIME" property="xinfeitime" />
+        <result column="XFFSHOWTIME" property="xffshowtime" />
+        <result column="CHUCANIF" property="chucanif" />
+        <result column="CHUCHANNUM" property="chuchannum" />
+        <result column="HUXIJIIF" property="huxijiif" />
+        <result column="HUXIHOWTIME" property="huxihowtime" />
+        <result column="HUXITIME" property="huxitime" />
+        <result column="QJIUJILU" property="qjiujilu" />
+        <result column="USERID" property="userid" />
+        <result column="INJZTIME" property="injztime" />
+        <result column="QJCREATETIME" property="qjcreatetime" />
+        <result column="TYPEID" property="typeid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        JQBR_ID AS jqbrId, CHUANNUM AS chuannum, BRNAME AS brname, BRSEX AS brsex, BRAGE AS brage, BRADDRESS AS braddress, CAUSE AS cause, JIWANGS AS jiwangs, GUOMINGSHI AS guomingshi, XUEYA AS xueya, HUXI AS huxi, MAIBO AS maibo, SHENZHI AS shenzhi, XUEYANG AS xueyang, TIWEN AS tiwen, TONGKONG2 AS tongkong2, TONGKONG AS tongkong, FUZHUJIANCHA AS fuzhujiancha, CHUBUZD AS chubuzd, QICHAGUANIF AS qichaguanif, QICHAGUANTIME AS qichaguantime, XINFEIFSIF AS xinfeifsif, XINFEITIME AS xinfeitime, XFFSHOWTIME AS xffshowtime, CHUCANIF AS chucanif, CHUCHANNUM AS chuchannum, HUXIJIIF AS huxijiif, HUXIHOWTIME AS huxihowtime, HUXITIME AS huxitime, QJIUJILU AS qjiujilu, USERID AS userid, INJZTIME AS injztime, QJCREATETIME AS qjcreatetime, TYPEID AS typeid
+    </sql>
+
+</mapper>

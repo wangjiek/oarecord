@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.soft.mybatis.mapper.OutpatientMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.soft.mybatis.pojo.Outpatient">
+        <id column="OUTPATIENT_ID" property="outpatientId" />
+        <result column="PATIENTNAME" property="patientname" />
+        <result column="MZID" property="mzid" />
+        <result column="ZYID" property="zyid" />
+        <result column="IDCARD" property="idcard" />
+        <result column="SEX" property="sex" />
+        <result column="AGE" property="age" />
+        <result column="FBADDRESS" property="fbaddress" />
+        <result column="FBTIME" property="fbtime" />
+        <result column="CALLOUTTIME" property="callouttime" />
+        <result column="SCYLJCTIME" property="scyljctime" />
+        <result column="WLYYINTIME" property="wlyyintime" />
+        <result column="ZZCMTIME" property="zzcmtime" />
+        <result column="YQSFXDTTIME" property="yqsfxdttime" />
+        <result column="CONFIRMEDTIME" property="confirmedtime" />
+        <result column="YCXDTCS" property="ycxdtcs" />
+        <result column="CSTIME" property="cstime" />
+        <result column="CSWAY" property="csway" />
+        <result column="GYSF" property="gysf" />
+        <result column="GYTIME" property="gytime" />
+        <result column="ASSIZE" property="assize" />
+        <result column="TGSIZE" property="tgsize" />
+        <result column="LPSIZE" property="lpsize" />
+        <result column="RSSC" property="rssc" />
+        <result column="SFYQRS" property="sfyqrs" />
+        <result column="RSCS" property="rscs" />
+        <result column="YQRSBEGINTIME" property="yqrsbegintime" />
+        <result column="QSZTTYTIME" property="qszttytime" />
+        <result column="QSRSBEGINTIME" property="qsrsbegintime" />
+        <result column="QSRSENDTIME" property="qsrsendtime" />
+        <result column="RSHZYTIME" property="rshzytime" />
+        <result column="YQRSYW" property="yqrsyw" />
+        <result column="YQRSYWSIZE" property="yqrsywsize" />
+        <result column="RSZT" property="rszt" />
+        <result column="DIAGNOSE" property="diagnose" />
+        <result column="ZYZCPC" property="zyzcpc" />
+        <result column="USERID" property="userid" />
+        <result column="TIMEADMINTYPE" property="timeadmintype" />
+        <result column="TYPEID" property="typeid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OUTPATIENT_ID AS outpatientId, PATIENTNAME AS patientname, MZID AS mzid, ZYID AS zyid, IDCARD AS idcard, SEX AS sex, AGE AS age, FBADDRESS AS fbaddress, FBTIME AS fbtime, CALLOUTTIME AS callouttime, SCYLJCTIME AS scyljctime, WLYYINTIME AS wlyyintime, ZZCMTIME AS zzcmtime, YQSFXDTTIME AS yqsfxdttime, CONFIRMEDTIME AS confirmedtime, YCXDTCS AS ycxdtcs, CSTIME AS cstime, CSWAY AS csway, GYSF AS gysf, GYTIME AS gytime, ASSIZE AS assize, TGSIZE AS tgsize, LPSIZE AS lpsize, RSSC AS rssc, SFYQRS AS sfyqrs, RSCS AS rscs, YQRSBEGINTIME AS yqrsbegintime, QSZTTYTIME AS qszttytime, QSRSBEGINTIME AS qsrsbegintime, QSRSENDTIME AS qsrsendtime, RSHZYTIME AS rshzytime, YQRSYW AS yqrsyw, YQRSYWSIZE AS yqrsywsize, RSZT AS rszt, DIAGNOSE AS diagnose, ZYZCPC AS zyzcpc, USERID AS userid, TIMEADMINTYPE AS timeadmintype, TYPEID AS typeid
+    </sql>
+
+</mapper>

@@ -248,6 +248,7 @@ public class LoginController extends BaseWeiXinController {
     public JsonAdminResult editQjyyInfo(HttpSession session, Qjyyrecord qjyyrecord) {
         JsonAdminResult res = new JsonAdminResult(true);
         try {
+            System.out.println("我的世界");
             recordService.addQjyyRrcord(qjyyrecord);
         } catch (Exception e) {
             return res.convertToErrorResult("修改失败");
